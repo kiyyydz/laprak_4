@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informasi Layanan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+      .jumbotron {
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+      }
+      .content {
+        padding: 20px;
+      }
+      .card {
+        margin: 20px 0;
+      }
+      footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <div class="d-flex">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="logo.jpg" alt="Logo" width="30" height="30" class="me-2" />
+            Perpustakaan Sekolah
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Layanan </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li><a class="dropdown-item" href="pendaftaran.html">Pendaftaran Anggota</a></li>
+                <li><a class="dropdown-item" href="informasi.html">Informasi Layanan</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="koleksi.html">Koleksi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <h1>Detail Layanan Kami</h1>
+      <p>Pelajari lebih lanjut berbagai layanan yang tersedia di Pustaka Sekolah kami.</p>
+    </div>
+
+    <!-- Content -->
+    <div class="container content">
+      <h2 class="text-center mb-4">Layanan yang Tersedia</h2>
+
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h4 class="card-title">Registrasi Keanggotaan</h4>
+          <p class="card-text">
+            Mendaftar sebagai anggota perpustakaan sangat mudah. Cukup isi formulir secara daring, dan Anda akan memperoleh keanggotaan yang memberikan akses ke beragam fasilitas menarik, seperti peminjaman buku, koleksi digital, dan
+            layanan lainnya.
+          </p>
+          <a href="#" class="btn btn-primary">Daftar Sekarang</a>
+        </div>
+      </div>
+
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h4 class="card-title">Prosedur Peminjaman Buku</h4>
+          <p class="card-text">
+            Anggota hanya dapat meminjam buku dengan durasi maksimal 20 hari. Jika lebih dari waktu yang ditentukandapat melakukan waktu tambahan dengan fitur perpanjangan peminjaman dapat yang dilakukan dengan mudah melalui portal online
+            kami.
+          </p>
+          <a href="#" class="btn btn-warning">Cari Tahu Lebih Lanjut</a>
+        </div>
+      </div>
+
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h4 class="card-title">Keuntungan Keanggotaan</h4>
+          <p class="card-text">
+            Dengan menjadi anggota, akan memperoleh akses ke ratusan juta koleksi buku, mengetahui informasi acara literasi yang diselenggarakan, dan menikmati layanan perpustakaan eksklusif yang disediakan untuk semua anggota.
+          </p>
+          <a href="#" class="btn btn-success">Bergabung Sekarang</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Alamat: Jl. Pendidikan No.123, Jakarta</p>
+      <p>Kontak: 021-123456 | Email: perpustakaan@sekolah.sch.id</p>
+      <p>Ikuti kami di Instagram: <a href="#" class="text-white">@perpustakaansekolah</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
